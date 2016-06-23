@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3005BDC1D19AD1B000983D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3005BDB1D19AD1B000983D3 /* main.m */; };
+		C3005BDF1D19AD1B000983D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3005BDE1D19AD1B000983D3 /* AppDelegate.m */; };
+		C3005BE21D19AD1B000983D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3005BE11D19AD1B000983D3 /* ViewController.m */; };
+		C3005BE51D19AD1B000983D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3005BE31D19AD1B000983D3 /* Main.storyboard */; };
+		C3005BE71D19AD1B000983D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3005BE61D19AD1B000983D3 /* Assets.xcassets */; };
+		C3005BEA1D19AD1B000983D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3005BE81D19AD1B000983D3 /* LaunchScreen.storyboard */; };
+		C3005BF51D19AD1B000983D3 /* AloTaxiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3005BF41D19AD1B000983D3 /* AloTaxiTests.m */; };
+		C3005C001D19AD1B000983D3 /* AloTaxiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3005BFF1D19AD1B000983D3 /* AloTaxiUITests.m */; };
+		C31902E71D1B77B9000B06EC /* CreatingUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31902E61D1B77B9000B06EC /* CreatingUserProfileViewController.m */; };
+		C31902EA1D1B79FE000B06EC /* CreatingTaxiProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31902E91D1B79FE000B06EC /* CreatingTaxiProfileViewController.m */; };
+		C31902EF1D1B87A3000B06EC /* UserHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31902EE1D1B87A3000B06EC /* UserHomeViewController.m */; };
+		C31902F51D1B8B6F000B06EC /* TaxiProfileMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31902F41D1B8B6F000B06EC /* TaxiProfileMapViewController.m */; };
+		C31903061D1B917D000B06EC /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903021D1B917D000B06EC /* IQKeyboardManager.m */; };
+		C31903071D1B917D000B06EC /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903041D1B917D000B06EC /* IQKeyboardReturnKeyHandler.m */; };
+		C31903091D1B9189000B06EC /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C31903081D1B9189000B06EC /* IQKeyboardManager.bundle */; };
+		C31903121D1B919D000B06EC /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C319030B1D1B919D000B06EC /* IQBarButtonItem.m */; };
+		C31903131D1B919D000B06EC /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C319030D1D1B919D000B06EC /* IQTitleBarButtonItem.m */; };
+		C31903141D1B919D000B06EC /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C319030F1D1B919D000B06EC /* IQToolbar.m */; };
+		C31903151D1B919D000B06EC /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903111D1B919D000B06EC /* IQUIView+IQKeyboardToolbar.m */; };
+		C31903181D1B91A8000B06EC /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903171D1B91A8000B06EC /* IQTextView.m */; };
+		C319031B1D1B91B5000B06EC /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = C319031A1D1B91B5000B06EC /* IQSegmentedNextPrevious.m */; };
+		C31903281D1B91D0000B06EC /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = C319031F1D1B91D0000B06EC /* IQNSArray+Sort.m */; };
+		C31903291D1B91D0000B06EC /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903211D1B91D0000B06EC /* IQUITextFieldView+Additions.m */; };
+		C319032A1D1B91D0000B06EC /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903231D1B91D0000B06EC /* IQUIView+Hierarchy.m */; };
+		C319032B1D1B91D0000B06EC /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903251D1B91D0000B06EC /* IQUIViewController+Additions.m */; };
+		C319032C1D1B91D0000B06EC /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903271D1B91D0000B06EC /* IQUIWindow+Hierarchy.m */; };
+		C319032E1D1B9BCD000B06EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C319032D1D1B9BCD000B06EC /* MapKit.framework */; };
+		C31903351D1BCD09000B06EC /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903311D1BCD09000B06EC /* SVIndefiniteAnimatedView.m */; };
+		C31903361D1BCD09000B06EC /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C31903321D1BCD09000B06EC /* SVProgressHUD.bundle */; };
+		C31903371D1BCD09000B06EC /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903341D1BCD09000B06EC /* SVProgressHUD.m */; };
+		C31903401D1BD22F000B06EC /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C319033F1D1BD22F000B06EC /* SlideNavigationController.m */; };
+		C31903811D1BD3CD000B06EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31903801D1BD3CD000B06EC /* Foundation.framework */; };
+		C31903831D1BD3F0000B06EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31903821D1BD3F0000B06EC /* UIKit.framework */; };
+		C31903851D1BD400000B06EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31903841D1BD400000B06EC /* AVFoundation.framework */; };
+		C31903911D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903881D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorFade.m */; };
+		C31903921D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = C319038A1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScale.m */; };
+		C31903931D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C319038C1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		C31903941D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = C319038E1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlide.m */; };
+		C31903951D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C31903901D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3005BF11D19AD1B000983D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3005BCF1D19AD1B000983D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3005BD61D19AD1B000983D3;
+			remoteInfo = AloTaxi;
+		};
+		C3005BFC1D19AD1B000983D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3005BCF1D19AD1B000983D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3005BD61D19AD1B000983D3;
+			remoteInfo = AloTaxi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3005BD71D19AD1B000983D3 /* SuperTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3005BDB1D19AD1B000983D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3005BDD1D19AD1B000983D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3005BDE1D19AD1B000983D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3005BE01D19AD1B000983D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3005BE11D19AD1B000983D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3005BE41D19AD1B000983D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3005BE61D19AD1B000983D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3005BE91D19AD1B000983D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3005BEB1D19AD1B000983D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3005BF01D19AD1B000983D3 /* AloTaxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloTaxiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3005BF41D19AD1B000983D3 /* AloTaxiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AloTaxiTests.m; sourceTree = "<group>"; };
+		C3005BF61D19AD1B000983D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3005BFB1D19AD1B000983D3 /* AloTaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloTaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3005BFF1D19AD1B000983D3 /* AloTaxiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AloTaxiUITests.m; sourceTree = "<group>"; };
+		C3005C011D19AD1B000983D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31902E51D1B77B9000B06EC /* CreatingUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatingUserProfileViewController.h; sourceTree = "<group>"; };
+		C31902E61D1B77B9000B06EC /* CreatingUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatingUserProfileViewController.m; sourceTree = "<group>"; };
+		C31902E81D1B79FE000B06EC /* CreatingTaxiProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatingTaxiProfileViewController.h; sourceTree = "<group>"; };
+		C31902E91D1B79FE000B06EC /* CreatingTaxiProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatingTaxiProfileViewController.m; sourceTree = "<group>"; };
+		C31902ED1D1B87A3000B06EC /* UserHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomeViewController.h; sourceTree = "<group>"; };
+		C31902EE1D1B87A3000B06EC /* UserHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomeViewController.m; sourceTree = "<group>"; };
+		C31902F31D1B8B6F000B06EC /* TaxiProfileMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiProfileMapViewController.h; sourceTree = "<group>"; };
+		C31902F41D1B8B6F000B06EC /* TaxiProfileMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiProfileMapViewController.m; sourceTree = "<group>"; };
+		C31903011D1B917D000B06EC /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = ThirdParty/IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		C31903021D1B917D000B06EC /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = ThirdParty/IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		C31903031D1B917D000B06EC /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = ThirdParty/IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		C31903041D1B917D000B06EC /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = ThirdParty/IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		C31903051D1B917D000B06EC /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyboardManager.h; path = ThirdParty/IQKeyboardManager/KeyboardManager.h; sourceTree = "<group>"; };
+		C31903081D1B9189000B06EC /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = ThirdParty/IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		C319030A1D1B919D000B06EC /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = ThirdParty/IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		C319030B1D1B919D000B06EC /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = ThirdParty/IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		C319030C1D1B919D000B06EC /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = ThirdParty/IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		C319030D1D1B919D000B06EC /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = ThirdParty/IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		C319030E1D1B919D000B06EC /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = ThirdParty/IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		C319030F1D1B919D000B06EC /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = ThirdParty/IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		C31903101D1B919D000B06EC /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "ThirdParty/IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		C31903111D1B919D000B06EC /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "ThirdParty/IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		C31903161D1B91A8000B06EC /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = ThirdParty/IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		C31903171D1B91A8000B06EC /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = ThirdParty/IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		C31903191D1B91B5000B06EC /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQSegmentedNextPrevious.h; path = ThirdParty/IQKeyboardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		C319031A1D1B91B5000B06EC /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IQSegmentedNextPrevious.m; path = ThirdParty/IQKeyboardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		C319031C1D1B91C3000B06EC /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = ThirdParty/IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		C319031D1D1B91C3000B06EC /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = ThirdParty/IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		C319031E1D1B91D0000B06EC /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "ThirdParty/IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		C319031F1D1B91D0000B06EC /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "ThirdParty/IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		C31903201D1B91D0000B06EC /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "ThirdParty/IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		C31903211D1B91D0000B06EC /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "ThirdParty/IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		C31903221D1B91D0000B06EC /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "ThirdParty/IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		C31903231D1B91D0000B06EC /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "ThirdParty/IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		C31903241D1B91D0000B06EC /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "ThirdParty/IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		C31903251D1B91D0000B06EC /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "ThirdParty/IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		C31903261D1B91D0000B06EC /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "ThirdParty/IQKeyboardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		C31903271D1B91D0000B06EC /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "ThirdParty/IQKeyboardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		C319032D1D1B9BCD000B06EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C31903301D1BCD09000B06EC /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = ThirdParty/SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		C31903311D1BCD09000B06EC /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = ThirdParty/SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		C31903321D1BCD09000B06EC /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = ThirdParty/SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		C31903331D1BCD09000B06EC /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = ThirdParty/SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		C31903341D1BCD09000B06EC /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = ThirdParty/SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		C319033E1D1BD22F000B06EC /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = ThirdParty/SlideMenu/SlideNavigationController/SlideNavigationController.h; sourceTree = "<group>"; };
+		C319033F1D1BD22F000B06EC /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = ThirdParty/SlideMenu/SlideNavigationController/SlideNavigationController.m; sourceTree = "<group>"; };
+		C31903801D1BD3CD000B06EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C31903821D1BD3F0000B06EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C31903841D1BD400000B06EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C31903861D1BE5C1000B06EC /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		C31903871D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		C31903881D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		C31903891D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		C319038A1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		C319038B1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		C319038C1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		C319038D1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		C319038E1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		C319038F1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		C31903901D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = ThirdParty/SlideMenu/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3005BD41D19AD1B000983D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31903851D1BD400000B06EC /* AVFoundation.framework in Frameworks */,
+				C31903831D1BD3F0000B06EC /* UIKit.framework in Frameworks */,
+				C31903811D1BD3CD000B06EC /* Foundation.framework in Frameworks */,
+				C319032E1D1B9BCD000B06EC /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3005BED1D19AD1B000983D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3005BF81D19AD1B000983D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3005BCE1D19AD1B000983D3 = {
+			isa = PBXGroup;
+			children = (
+				C3005BD91D19AD1B000983D3 /* AloTaxi */,
+				C31902EC1D1B8138000B06EC /* Frameworks */,
+				C3005BF31D19AD1B000983D3 /* AloTaxiTests */,
+				C3005BFE1D19AD1B000983D3 /* AloTaxiUITests */,
+				C3005BD81D19AD1B000983D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3005BD81D19AD1B000983D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3005BD71D19AD1B000983D3 /* SuperTaxi.app */,
+				C3005BF01D19AD1B000983D3 /* AloTaxiTests.xctest */,
+				C3005BFB1D19AD1B000983D3 /* AloTaxiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3005BD91D19AD1B000983D3 /* AloTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				C31902EB1D1B7F6C000B06EC /* ThirdParty */,
+				C31902E31D1B7748000B06EC /* Controller */,
+				C31902E11D1B76C9000B06EC /* View */,
+				C31902DF1D1B76A1000B06EC /* Model */,
+				C3005BE01D19AD1B000983D3 /* ViewController.h */,
+				C3005BE11D19AD1B000983D3 /* ViewController.m */,
+				C3005BDA1D19AD1B000983D3 /* Supporting Files */,
+			);
+			path = AloTaxi;
+			sourceTree = "<group>";
+		};
+		C3005BDA1D19AD1B000983D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3005BEB1D19AD1B000983D3 /* Info.plist */,
+				C3005BDB1D19AD1B000983D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3005BF31D19AD1B000983D3 /* AloTaxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3005BF41D19AD1B000983D3 /* AloTaxiTests.m */,
+				C3005BF61D19AD1B000983D3 /* Info.plist */,
+			);
+			path = AloTaxiTests;
+			sourceTree = "<group>";
+		};
+		C3005BFE1D19AD1B000983D3 /* AloTaxiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3005BFF1D19AD1B000983D3 /* AloTaxiUITests.m */,
+				C3005C011D19AD1B000983D3 /* Info.plist */,
+			);
+			path = AloTaxiUITests;
+			sourceTree = "<group>";
+		};
+		C31902DF1D1B76A1000B06EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C31902E11D1B76C9000B06EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3005BE31D19AD1B000983D3 /* Main.storyboard */,
+				C3005BE61D19AD1B000983D3 /* Assets.xcassets */,
+				C3005BE81D19AD1B000983D3 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C31902E31D1B7748000B06EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C31902F11D1B87F8000B06EC /* UserControllers */,
+				C31902F01D1B87E6000B06EC /* TaxiDriverControllers */,
+				C31902E41D1B7751000B06EC /* AppDelegate */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C31902E41D1B7751000B06EC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C3005BDD1D19AD1B000983D3 /* AppDelegate.h */,
+				C3005BDE1D19AD1B000983D3 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C31902EB1D1B7F6C000B06EC /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C31903381D1BD182000B06EC /* SlideMenu */,
+				C319032F1D1BCCC6000B06EC /* SVProgressHUD */,
+				C31902FA1D1B9112000B06EC /* IQKeyboardManager */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		C31902EC1D1B8138000B06EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C31903841D1BD400000B06EC /* AVFoundation.framework */,
+				C31903821D1BD3F0000B06EC /* UIKit.framework */,
+				C31903801D1BD3CD000B06EC /* Foundation.framework */,
+				C319032D1D1B9BCD000B06EC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C31902F01D1B87E6000B06EC /* TaxiDriverControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C31902E81D1B79FE000B06EC /* CreatingTaxiProfileViewController.h */,
+				C31902E91D1B79FE000B06EC /* CreatingTaxiProfileViewController.m */,
+				C31902F31D1B8B6F000B06EC /* TaxiProfileMapViewController.h */,
+				C31902F41D1B8B6F000B06EC /* TaxiProfileMapViewController.m */,
+			);
+			name = TaxiDriverControllers;
+			sourceTree = "<group>";
+		};
+		C31902F11D1B87F8000B06EC /* UserControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C31902E51D1B77B9000B06EC /* CreatingUserProfileViewController.h */,
+				C31902E61D1B77B9000B06EC /* CreatingUserProfileViewController.m */,
+				C31902ED1D1B87A3000B06EC /* UserHomeViewController.h */,
+				C31902EE1D1B87A3000B06EC /* UserHomeViewController.m */,
+			);
+			name = UserControllers;
+			sourceTree = "<group>";
+		};
+		C31902FA1D1B9112000B06EC /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				C31903011D1B917D000B06EC /* IQKeyboardManager.h */,
+				C31903021D1B917D000B06EC /* IQKeyboardManager.m */,
+				C31903031D1B917D000B06EC /* IQKeyboardReturnKeyHandler.h */,
+				C31903041D1B917D000B06EC /* IQKeyboardReturnKeyHandler.m */,
+				C31903051D1B917D000B06EC /* KeyboardManager.h */,
+				C31903001D1B915A000B06EC /* Resources */,
+				C31902FF1D1B9152000B06EC /* IQToolbar */,
+				C31902FE1D1B9147000B06EC /* IQTextView */,
+				C31902FD1D1B913E000B06EC /* IQSegmentedNextPrevious */,
+				C31902FC1D1B9134000B06EC /* Constants */,
+				C31902FB1D1B9129000B06EC /* Categories */,
+			);
+			name = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		C31902FB1D1B9129000B06EC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C319031E1D1B91D0000B06EC /* IQNSArray+Sort.h */,
+				C319031F1D1B91D0000B06EC /* IQNSArray+Sort.m */,
+				C31903201D1B91D0000B06EC /* IQUITextFieldView+Additions.h */,
+				C31903211D1B91D0000B06EC /* IQUITextFieldView+Additions.m */,
+				C31903221D1B91D0000B06EC /* IQUIView+Hierarchy.h */,
+				C31903231D1B91D0000B06EC /* IQUIView+Hierarchy.m */,
+				C31903241D1B91D0000B06EC /* IQUIViewController+Additions.h */,
+				C31903251D1B91D0000B06EC /* IQUIViewController+Additions.m */,
+				C31903261D1B91D0000B06EC /* IQUIWindow+Hierarchy.h */,
+				C31903271D1B91D0000B06EC /* IQUIWindow+Hierarchy.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		C31902FC1D1B9134000B06EC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C319031C1D1B91C3000B06EC /* IQKeyboardManagerConstants.h */,
+				C319031D1D1B91C3000B06EC /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		C31902FD1D1B913E000B06EC /* IQSegmentedNextPrevious */ = {
+			isa = PBXGroup;
+			children = (
+				C31903191D1B91B5000B06EC /* IQSegmentedNextPrevious.h */,
+				C319031A1D1B91B5000B06EC /* IQSegmentedNextPrevious.m */,
+			);
+			name = IQSegmentedNextPrevious;
+			sourceTree = "<group>";
+		};
+		C31902FE1D1B9147000B06EC /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				C31903161D1B91A8000B06EC /* IQTextView.h */,
+				C31903171D1B91A8000B06EC /* IQTextView.m */,
+			);
+			name = IQTextView;
+			sourceTree = "<group>";
+		};
+		C31902FF1D1B9152000B06EC /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				C319030A1D1B919D000B06EC /* IQBarButtonItem.h */,
+				C319030B1D1B919D000B06EC /* IQBarButtonItem.m */,
+				C319030C1D1B919D000B06EC /* IQTitleBarButtonItem.h */,
+				C319030D1D1B919D000B06EC /* IQTitleBarButtonItem.m */,
+				C319030E1D1B919D000B06EC /* IQToolbar.h */,
+				C319030F1D1B919D000B06EC /* IQToolbar.m */,
+				C31903101D1B919D000B06EC /* IQUIView+IQKeyboardToolbar.h */,
+				C31903111D1B919D000B06EC /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			name = IQToolbar;
+			sourceTree = "<group>";
+		};
+		C31903001D1B915A000B06EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C31903081D1B9189000B06EC /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C319032F1D1BCCC6000B06EC /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C31903301D1BCD09000B06EC /* SVIndefiniteAnimatedView.h */,
+				C31903311D1BCD09000B06EC /* SVIndefiniteAnimatedView.m */,
+				C31903321D1BCD09000B06EC /* SVProgressHUD.bundle */,
+				C31903331D1BCD09000B06EC /* SVProgressHUD.h */,
+				C31903341D1BCD09000B06EC /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		C31903381D1BD182000B06EC /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C319033A1D1BD1A6000B06EC /* Animations */,
+				C31903391D1BD19B000B06EC /* SlideNavigationController */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		C31903391D1BD19B000B06EC /* SlideNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				C319033E1D1BD22F000B06EC /* SlideNavigationController.h */,
+				C319033F1D1BD22F000B06EC /* SlideNavigationController.m */,
+			);
+			name = SlideNavigationController;
+			sourceTree = "<group>";
+		};
+		C319033A1D1BD1A6000B06EC /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C31903861D1BE5C1000B06EC /* SlideNavigationContorllerAnimator.h */,
+				C31903871D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorFade.h */,
+				C31903881D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorFade.m */,
+				C31903891D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScale.h */,
+				C319038A1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScale.m */,
+				C319038B1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				C319038C1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				C319038D1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlide.h */,
+				C319038E1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlide.m */,
+				C319038F1D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				C31903901D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3005BD61D19AD1B000983D3 /* AloTaxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3005C041D19AD1B000983D3 /* Build configuration list for PBXNativeTarget "AloTaxi" */;
+			buildPhases = (
+				C3005BD31D19AD1B000983D3 /* Sources */,
+				C3005BD41D19AD1B000983D3 /* Frameworks */,
+				C3005BD51D19AD1B000983D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AloTaxi;
+			productName = AloTaxi;
+			productReference = C3005BD71D19AD1B000983D3 /* SuperTaxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3005BEF1D19AD1B000983D3 /* AloTaxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3005C071D19AD1B000983D3 /* Build configuration list for PBXNativeTarget "AloTaxiTests" */;
+			buildPhases = (
+				C3005BEC1D19AD1B000983D3 /* Sources */,
+				C3005BED1D19AD1B000983D3 /* Frameworks */,
+				C3005BEE1D19AD1B000983D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3005BF21D19AD1B000983D3 /* PBXTargetDependency */,
+			);
+			name = AloTaxiTests;
+			productName = AloTaxiTests;
+			productReference = C3005BF01D19AD1B000983D3 /* AloTaxiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3005BFA1D19AD1B000983D3 /* AloTaxiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3005C0A1D19AD1B000983D3 /* Build configuration list for PBXNativeTarget "AloTaxiUITests" */;
+			buildPhases = (
+				C3005BF71D19AD1B000983D3 /* Sources */,
+				C3005BF81D19AD1B000983D3 /* Frameworks */,
+				C3005BF91D19AD1B000983D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3005BFD1D19AD1B000983D3 /* PBXTargetDependency */,
+			);
+			name = AloTaxiUITests;
+			productName = AloTaxiUITests;
+			productReference = C3005BFB1D19AD1B000983D3 /* AloTaxiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3005BCF1D19AD1B000983D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jensen Pich";
+				TargetAttributes = {
+					C3005BD61D19AD1B000983D3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C3005BEF1D19AD1B000983D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C3005BD61D19AD1B000983D3;
+					};
+					C3005BFA1D19AD1B000983D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C3005BD61D19AD1B000983D3;
+					};
+				};
+			};
+			buildConfigurationList = C3005BD21D19AD1B000983D3 /* Build configuration list for PBXProject "AloTaxi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3005BCE1D19AD1B000983D3;
+			productRefGroup = C3005BD81D19AD1B000983D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3005BD61D19AD1B000983D3 /* AloTaxi */,
+				C3005BEF1D19AD1B000983D3 /* AloTaxiTests */,
+				C3005BFA1D19AD1B000983D3 /* AloTaxiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3005BD51D19AD1B000983D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31903361D1BCD09000B06EC /* SVProgressHUD.bundle in Resources */,
+				C3005BEA1D19AD1B000983D3 /* LaunchScreen.storyboard in Resources */,
+				C3005BE71D19AD1B000983D3 /* Assets.xcassets in Resources */,
+				C31903091D1B9189000B06EC /* IQKeyboardManager.bundle in Resources */,
+				C3005BE51D19AD1B000983D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3005BEE1D19AD1B000983D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3005BF91D19AD1B000983D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3005BD31D19AD1B000983D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31902EF1D1B87A3000B06EC /* UserHomeViewController.m in Sources */,
+				C31902EA1D1B79FE000B06EC /* CreatingTaxiProfileViewController.m in Sources */,
+				C3005BE21D19AD1B000983D3 /* ViewController.m in Sources */,
+				C3005BDF1D19AD1B000983D3 /* AppDelegate.m in Sources */,
+				C31903071D1B917D000B06EC /* IQKeyboardReturnKeyHandler.m in Sources */,
+				C31903351D1BCD09000B06EC /* SVIndefiniteAnimatedView.m in Sources */,
+				C31903951D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				C31903061D1B917D000B06EC /* IQKeyboardManager.m in Sources */,
+				C31903121D1B919D000B06EC /* IQBarButtonItem.m in Sources */,
+				C319032C1D1B91D0000B06EC /* IQUIWindow+Hierarchy.m in Sources */,
+				C31903371D1BCD09000B06EC /* SVProgressHUD.m in Sources */,
+				C31903921D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				C31903291D1B91D0000B06EC /* IQUITextFieldView+Additions.m in Sources */,
+				C31902E71D1B77B9000B06EC /* CreatingUserProfileViewController.m in Sources */,
+				C31903281D1B91D0000B06EC /* IQNSArray+Sort.m in Sources */,
+				C319032B1D1B91D0000B06EC /* IQUIViewController+Additions.m in Sources */,
+				C319031B1D1B91B5000B06EC /* IQSegmentedNextPrevious.m in Sources */,
+				C31902F51D1B8B6F000B06EC /* TaxiProfileMapViewController.m in Sources */,
+				C31903131D1B919D000B06EC /* IQTitleBarButtonItem.m in Sources */,
+				C3005BDC1D19AD1B000983D3 /* main.m in Sources */,
+				C31903911D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				C31903401D1BD22F000B06EC /* SlideNavigationController.m in Sources */,
+				C31903151D1B919D000B06EC /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				C31903141D1B919D000B06EC /* IQToolbar.m in Sources */,
+				C31903931D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				C319032A1D1B91D0000B06EC /* IQUIView+Hierarchy.m in Sources */,
+				C31903181D1B91A8000B06EC /* IQTextView.m in Sources */,
+				C31903941D1BE5C1000B06EC /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3005BEC1D19AD1B000983D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3005BF51D19AD1B000983D3 /* AloTaxiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3005BF71D19AD1B000983D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3005C001D19AD1B000983D3 /* AloTaxiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3005BF21D19AD1B000983D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3005BD61D19AD1B000983D3 /* AloTaxi */;
+			targetProxy = C3005BF11D19AD1B000983D3 /* PBXContainerItemProxy */;
+		};
+		C3005BFD1D19AD1B000983D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3005BD61D19AD1B000983D3 /* AloTaxi */;
+			targetProxy = C3005BFC1D19AD1B000983D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3005BE31D19AD1B000983D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3005BE41D19AD1B000983D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3005BE81D19AD1B000983D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3005BE91D19AD1B000983D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3005C021D19AD1B000983D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3005C031D19AD1B000983D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3005C051D19AD1B000983D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AloTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.AloTaxi;
+				PRODUCT_NAME = SuperTaxi;
+			};
+			name = Debug;
+		};
+		C3005C061D19AD1B000983D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AloTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.AloTaxi;
+				PRODUCT_NAME = SuperTaxi;
+			};
+			name = Release;
+		};
+		C3005C081D19AD1B000983D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AloTaxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.AloTaxiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AloTaxi.app/AloTaxi";
+			};
+			name = Debug;
+		};
+		C3005C091D19AD1B000983D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AloTaxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.AloTaxiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AloTaxi.app/AloTaxi";
+			};
+			name = Release;
+		};
+		C3005C0B1D19AD1B000983D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AloTaxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.AloTaxiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AloTaxi;
+			};
+			name = Debug;
+		};
+		C3005C0C1D19AD1B000983D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AloTaxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.AloTaxiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AloTaxi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3005BD21D19AD1B000983D3 /* Build configuration list for PBXProject "AloTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3005C021D19AD1B000983D3 /* Debug */,
+				C3005C031D19AD1B000983D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3005C041D19AD1B000983D3 /* Build configuration list for PBXNativeTarget "AloTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3005C051D19AD1B000983D3 /* Debug */,
+				C3005C061D19AD1B000983D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3005C071D19AD1B000983D3 /* Build configuration list for PBXNativeTarget "AloTaxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3005C081D19AD1B000983D3 /* Debug */,
+				C3005C091D19AD1B000983D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3005C0A1D19AD1B000983D3 /* Build configuration list for PBXNativeTarget "AloTaxiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3005C0B1D19AD1B000983D3 /* Debug */,
+				C3005C0C1D19AD1B000983D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3005BCF1D19AD1B000983D3 /* Project object */;
+}
